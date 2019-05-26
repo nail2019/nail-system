@@ -13,6 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "create-react-app": "^2.1.8",
+    "google-map-react": "^1.1.4",
+    "iframe-react": "^1.0.1",
+    "react-bingmaps": "^3.6.1",
+    "react-iframe": "^1.8.0",
     "react-loading": "^2.0.3"
   },
   "devDependencies": {
