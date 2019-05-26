@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import ReactDOM from "react-dom";
 import { Row, Col, Container } from 'react-bootstrap';
-import './upproducts.css'
+import './upproducts.css';
+import ImageUpload from './imageupload';
 
 class upProductsPage extends Component {
   render() {
@@ -11,7 +13,7 @@ class upProductsPage extends Component {
             <Col sm={3} md={3} sx={3}></Col>
             <Col sm={6} md={6} sx={6} className="callText textSize1">
               Đăng sản phẩm độc đáo theo phong cách riêng của bạn
-                </Col>
+            </Col>
           </Row>
           <Row className='mt-5'>
             <Col sm={1} md={1} sx={1}></Col>
@@ -41,7 +43,7 @@ class upProductsPage extends Component {
               </form>
             </Col>
             <Col sm={6} md={6} sx={6}>
-              <div className="pictureView">Xem trước ảnh tác phẩm</div>
+              <ImageUpload />
             </Col>
           </Row>
           <Row>
