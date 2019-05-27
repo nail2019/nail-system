@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-
 import HomePage from '../pages/home/home';
 import ContactPage from '../pages/contact/contact';
 import AboutPage from '../pages/about/about';
@@ -13,6 +12,7 @@ import NailerPageSocial from '../pages/nailer/nailer-social.js';
 import SignUp from '../pages/signup/index'
 import SignUpNailer from '../pages/SignUpNailer/SignUpNailer';
 import Upproducts from '../pages/upproducts/upproducts';
+import Imageupload from '../pages/upproducts/imageupload';
 import TronGoiPopUp from '../pages/service/ServicePopUp/TronGoiPopUp';
 import BangGiaDichVu from '../pages/banggiadichvu/banggiadichvu';
 import policyPage from '../pages/policy/policy';
@@ -50,6 +50,7 @@ const MainRoute = () => (
      <Route path='/SignUp' component={SignUp}/>
      <Route path='/SignUpNailer' component ={SignUpNailer}/>
      <Route path='/upproducts' component ={Upproducts}/>
+     <Route path='/imageupload' component ={Imageupload}/>
      <Route path='/TronGoiPopUp' component ={TronGoiPopUp}/>
      <Route path='/BangGiaDichVu' component ={BangGiaDichVu}/>
      <Route path='/policy' component={policyPage}/>
@@ -69,7 +70,7 @@ const MainRoute = () => (
      <Route path='/updateProfileNailer' component={Updateprofile}/>
      <Route path='/HeaderNew' component={HeaderNew}/>
      <Route path='/datlich' component={menu_datlich}/>
-     <Route path='/pagenotfound' component={NotfoundPage}/>
+     <Route path='' component={NotfoundPage}/>
    </Switch>
  </main>
 )
