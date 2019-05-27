@@ -48,10 +48,24 @@ class ContactPage extends Component {
             <Col>
               <div className="map mb-5 mt-4">
                 <img src={Map} alt='Dia chi lien lac' />
+<<<<<<< HEAD
                 <ReactBingmaps 
                   bingmapKey = "AnthFhQ4YjEbLyr5SbDsBBrgDZoOG0ANmB5UG_UGsET7-TBqoUBSMw2mQUBx4ko_" 
                   center = {[10.860824, 106.770781]}> 
                 </ReactBingmaps>
+=======
+                {/* <ReactBingmaps 
+                  bingmapKey = "AnthFhQ4YjEbLyr5SbDsBBrgDZoOG0ANmB5UG_UGsET7-TBqoUBSMw2mQUBx4ko_" 
+                  center = {[10.860824, 106.770781]}> 
+                </ReactBingmaps> */}
+                {/* <Iframe url="http://youtube.com/embed/xDMP3i36naA"
+                  width="450px"
+                  height="450px"
+                  id="myId"
+                  className="myClassname"
+                  display="initial"
+                  position="relative"/> */}
+>>>>>>> 6b19bf47906f351376260a3db67e503de5430579
               </div>
             </Col>
           </Row>
