@@ -4,7 +4,7 @@ import { Row, Col, Container, Form} from 'react-bootstrap';
 // import Frame from 'iframe-react';
 import './contact.css';
 import Map from './map.svg';
-import { ReactBingmaps } from 'react-bingmaps';
+// import { ReactBingmaps } from 'react-bingmaps';
 
 class ContactPage extends Component {
   render() {
@@ -48,10 +48,10 @@ class ContactPage extends Component {
             <Col>
               <div className="map mb-5 mt-4">
                 <img src={Map} alt='Dia chi lien lac' />
-                <ReactBingmaps 
+                {/* <ReactBingmaps 
                   bingmapKey = "AnthFhQ4YjEbLyr5SbDsBBrgDZoOG0ANmB5UG_UGsET7-TBqoUBSMw2mQUBx4ko_" 
                   center = {[10.860824, 106.770781]}> 
-                </ReactBingmaps>
+                </ReactBingmaps> */}
               </div>
             </Col>
           </Row>
