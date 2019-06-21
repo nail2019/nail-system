@@ -52,13 +52,6 @@ class ContactPage extends Component {
                   bingmapKey = "AnthFhQ4YjEbLyr5SbDsBBrgDZoOG0ANmB5UG_UGsET7-TBqoUBSMw2mQUBx4ko_" 
                   center = {[10.860824, 106.770781]}> 
                 </ReactBingmaps> */}
-                {/* <Iframe url="http://youtube.com/embed/xDMP3i36naA"
-                  width="450px"
-                  height="450px"
-                  id="myId"
-                  className="myClassname"
-                  display="initial"
-                  position="relative"/> */}
               </div>
             </Col>
           </Row>
